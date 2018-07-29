@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+@import url('https://fonts.googleapis.com/css?family=Gaegu');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+/* Général */
+   
+*
+{
+    margin:0;
+    padding:0;
+}
+
+.container
+{
+    width:90%;
+    margin:auto;
+}
+    
+/* HEADER */
+    
+.header
+{
+    height:75px;
+    background-color:#222831;
+}
+
+.header-container
+{
+    width:80%;
+    margin:auto;
+}
+
+.header-title
+{
+    float:left;
+    font-family: 'Anton', sans-serif;
+    line-height:75px;
+    color:white;
+}
+
+.header-link
+{
+    float:right;
+    line-height:75px;
+    color:white;
+    padding-left:10px;
+    font-size:25px;
+}
+
+#Y
+{
+    color:#db4538;
+}
+
+#T
+{
+    color:#6441a5;
+}
+
+#Tw
+{
+    color:#1da1f2;
+}
+
+
+
+
+/* BODY-MAIN */
+    
+.body-main-title
+{
+    padding-top:20px;
+    color:#eeeeee;
+    font-family: 'Gaegu', cursive;
+    text-shadow: 2px 1px #000000;
+    justify-content:center;
+    display:flex;
+}
+
+.body-main
+{
+    background-color:#00adb5;
+    height:650px;
+    display:flex;
+    justify-content:center;
+}
+
+.body-main-title
+{
+    margin-bottom:150px;
+    color:white;
+    font-family: 'Gaegu', cursive;
+}
+
+.body-form
+{
+    display:flex;
+    justify-content:center;
+    padding:40px;
+    margin-bottom:100px;
+    position:relative;
+    background-color:#222831;
+}
+
+.input-name
+{
+    margin-bottom:10px;
+}
+
+#email-icon
+{
+    color:White;
+    font-size:25px;
+    padding-right:13px;
+}
+
+#name-icon
+{
+    color:white;
+    font-size:25px;
+    padding-right:10px;
+}
+
+input[type=nom]
+{
+    border-radius:2px;
+    border:none;    
+    height:30px;
+    width:300px;
+    font-size:20px;
+    background-color:white;
+}
+
+input[type=email]
+{
+    border-radius:2px;
+    border:none;    
+    height:30px;
+    width:300px;
+    font-size:20px;
+    background-color:white;
+    
+}
+
+[placeholder] 
+{
+  
+}
+
+input[type=submit]
+{
+    background-color:#393e46;
+    color:White;
+    margin-left:75px;
+    margin-top:15px;
+    border:1px solid #393e46;
+    border-radius:2px;
+    padding:10px 50px;
+    text-transform:uppercase;
+    box-shadow: 2px 2px 4px #000;
+}
+
+/* BODY-SECOND */
+
+.body-second
+{
+    height:650px;
+    background-color:#00adb5;
+    display:flex;
+    justify-content:center;
+}
+
+.body-second-title
+{
+    padding-top:20px;
+    color:#eeeeee;
+    font-family: 'Patua One', cursive;
+    text-shadow: 2px 1px #000000;
+    justify-content:center;
+    display:flex;
+    padding-bottom:200px;
+}
+
+.body-second-video
+{
+    display:flex;
+    justify-content:center;
+    margin-bottom:200px
+    
+}
+
+.body-video
+{
+    display:flex;
+    justify-content:center;
+}
+
+/* FOOTER */
+
+.footer-container
+{
+    width:90%;
+    margin:auto;
+    justify-content:center;
+    display:inline;
+}
+
+.footer-link-container
+{
+   display:flex;
+   justify-content:center;
+   width:80%;
+   margin:auto;
+}
+
+.footer-heart-container
+{
+    display:flex;
+   justify-content:center;
+   width:80%;
+   margin:auto;
+   padding-top:25px;
+}
+
+.footer-link
+{
+  color:white;
+  font-size:25px;
+  text-decoration:none;
+  display:flex;
+  justify-content:center;
+  padding-right:25px;
+  padding-top:5px;
+}
+
+.footer-heart
+{
+  font-size:13px;
+  margin-top:15px;
+  justify-content:center;
+  display:flex;
+  color:white;
+}
+
+#heart
+{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.footer
+{
+    height:100px;
+    background-color:#222831;
+    font-family: 'Gaegu', cursive;
+}
+
+
+/* JS */
+
+.disp_none
+{
+    display:none;
+}
+
+#nom_m
+{
+    color:red;
+    margin-left:3px;
+    
+}
+
+#email_m
+{
+    color:red;
+    margin-left:3px;
+    
+}
